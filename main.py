@@ -6,7 +6,10 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Welcome!\n\nEarn ₹10 per referral.\nMinimum withdrawal ₹100.\n\nShare your referral link."
+        "Welcome 👋\n\n"
+        "Earn ₹10 per referral 💰\n"
+        "Minimum withdrawal ₹100\n\n"
+        "Share your referral link to earn."
     )
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
